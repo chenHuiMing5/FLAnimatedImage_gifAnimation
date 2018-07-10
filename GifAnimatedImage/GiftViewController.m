@@ -21,8 +21,11 @@
     [super viewDidLoad];
     [self.view addSubview:self.imageViewGift];
     _imageViewGift.backgroundColor = [UIColor redColor];
+    // 动态图
+    NSString *urlStr = @"https://staticimg.ngmm365.com/0dd3a526e657396c3dfba57799a2e5e4-w750_h336.gif";
+
+    // 普通URL图片
 //    NSString *urlStr = @"https://staticimg.ngmm365.com/a36df0aa145f1d897bf1943ceca4a71c-w1920_h1080.jpg";
-    NSString *urlStr = @"https://staticimg.ngmm365.com/a36df0aa145f1d897bf1943ceca4a71c-w1920_h1080.jpg";
 
     [_imageViewGift sd_setImageWithURL:[NSURL URLWithString:urlStr] placeholderImage:nil completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
         if (image) {

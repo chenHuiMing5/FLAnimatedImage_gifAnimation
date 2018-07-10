@@ -33,7 +33,7 @@ pod 'SDWebImage/GIF'
 ​
 ​//gif动态图
 ​
-​//    NSString *urlStr = @"https://staticimg.ngmm365.com/a36df0aa145f1d897bf1943ceca4a71c-w1920_h1080.jpg";
+​//    NSString *urlStr = @"https://staticimg.ngmm365.com/0dd3a526e657396c3dfba57799a2e5e4-w750_h336.gif";
 ​
 ​//普通图片
 ​
